@@ -1,0 +1,456 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body {
+    
+    width: 100%;
+}
+
+
+@-webkit-keyframes slide-top {
+    0% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+    100% {
+      -webkit-transform: translateY(-100px);
+              transform: translateY(-100px);
+    }
+  }
+  @keyframes slide-top {
+    0% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+    100% {
+      -webkit-transform: translateY(-100px);
+              transform: translateY(-100px);
+    }
+  }
+
+  body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    
+}
+main{
+    height: 1500px;
+    width: 100%;
+    position: relative;
+}
+
+@media (orientation: portrait),(max-width: 1440px){
+    header{
+        width: 100%;
+        height: 400px;
+        position: relative;
+        background: #282727;
+        margin: 0;
+
+    }
+    .img-iph{
+        width: 60px;
+        height: 60px;
+        left: 50px;
+        top: 50px;
+        position: absolute;
+    }
+    .header-h2{
+        position:absolute;
+        transform:translateX(-50%);
+        left: 50%;
+        top: 60px;
+        color: aliceblue;
+        font-family: 'Karla';
+        font-style: normal;
+        font-size: 25px;
+    }
+
+    .line{
+        transform:translateX(-50%);
+        left: 50%;
+        position: absolute;
+        width: 500px;
+        height: 0px;
+        border-bottom: 1px solid #FFFFFF;
+        top: 100px;
+    }
+    .iphon-16promax{
+        position: absolute;
+        width: 100px;
+        height: 120px;
+        left: 425px;
+        top: 140px;
+    }
+
+    .iphon-16pro{
+        position: absolute;
+        width: 170px;
+        height: 170px;
+        left: 590px;
+        top: 115px;
+    }
+
+    .iphon-16{
+        position: absolute;
+        width: 160px;
+        height: 150px;
+        top: 135px;
+        left: 780px;
+    }
+    .h2-16promax{
+        position: absolute;
+        top:280px;
+        left: 430px;
+        font-size: 20px;
+        font-family: 'Instrument Sans';
+        font-style: normal;
+        font-weight: 400;
+        color: #DEDEDE;
+
+
+    }
+    .h2-16pro{
+        position: absolute;
+        top:280px;
+        left: 645px;
+        font-size: 20px;
+        font-family: 'Instrument Sans';
+        font-style: normal;
+        font-weight: 400;
+        color: #DEDEDE;
+
+
+    }
+
+    .h2-16{
+        position: absolute;
+        top:290px;
+        left: 850px;
+        font-size: 20px;
+        font-family: 'Instrument Sans';
+        font-style: normal;
+        font-weight: 400;
+        color: #DEDEDE;
+
+
+    }
+    .h1-main{
+        position: absolute;
+        font-size: 64px;
+        left: 100px;
+        top: 70px;
+        line-height: 1.0625;
+        font-weight: 600;
+        letter-spacing: -0.009em;
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+    .h1-main2{
+        position: relative;
+        font-size: 50px;
+        left:  900px;
+        top: 70px;
+        font-size: 24px;
+        line-height: 1.16667;
+        font-weight: 600;
+        letter-spacing: 0.009em;
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        width: 250px;
+    }
+    .img-main{
+        position: relative;
+        top: 200px;
+        width: 100%;
+        height: 700px;
+    }
+    .iphone-h2{
+        font-size: 45px;
+        line-height: 1.08349;
+        font-weight: 600;
+        letter-spacing: -0.003em;
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        top: 300px;
+        left: 100px;
+        position: relative;
+        width: 350px;
+    }
+    .block1{
+        top: 100px;
+        position: relative;
+        width: 100%;
+        height: 700px;
+        background: #ece9e9;
+    }
+    .liniyka{
+        position: absolute;
+        top: 100px;
+        font-size: 50px;
+        line-height: 1.0714285714;
+        font-weight: 600;
+        letter-spacing: -0.005em;
+        font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+        color: rgb(17, 17, 17);
+        left: 100px;
+    }
+    .block16promax{
+        position: absolute;
+        left: 100px;
+        top: 300px;
+    }
+    .img-16promax{
+        width: 200px;
+        height: 250px;
+        position: relative;
+        left: 10px;
+    }
+    .p-16promax{
+        color: #ff0800;
+        font-size: 15px;
+        position: relative;
+        text-align: center;
+        top: 20px;
+        line-height: 1.3333733333;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    }
+    .p2-16promax{
+        position: relative;
+        font-size: 20px;
+        top: 48px;
+        text-align: center;
+        line-height: 1.3333733333;
+        color: #282727;
+    }
+    .h3-16promax{
+        position: relative;
+        font-size: 25px;
+        text-align: center;
+        top: 40px;
+        line-height: 1.3333733333;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    
+    }
+
+    .block16pro{
+        position: absolute;
+        left: 500px;
+        top: 250px;
+    }
+    .img-16pro{
+        width: 350px;
+        height: 350px;
+        position: relative;
+        left: 10px;
+    }
+    .p-16pro{
+        color: #ff0800;
+        font-size: 15px;
+        position: relative;
+        text-align: center;
+        top: -25px;
+        line-height: 1.3333733333;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    }
+    .p2-16pro{
+        position: relative;
+        font-size: 20px;
+        top: 0px;
+        text-align: center;
+        line-height: 1.3333733333;
+        color: #282727;
+    }
+    .h3-16pro{
+        position: relative;
+        font-size: 25px;
+        text-align: center;
+        top: -5px;
+        line-height: 1.3333733333;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    
+    }
+
+    .block16{
+        position: absolute;
+        left: 900px;
+        top: 270px;
+    }
+    .img-16{
+        width: 340px;
+        height: 320px;
+        position: relative;
+        left: 10px;
+    }
+    .p-16{
+        color: #ff0800;
+        font-size: 15px;
+        position: relative;
+        text-align: center;
+        top: -25px;
+        line-height: 1.3333733333;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    }
+    .p2-16{
+        position: relative;
+        font-size: 20px;
+        top: 0px;
+        text-align: center;
+        line-height: 1.3333733333;
+        color: #282727;
+    }
+    .h3-16{
+        position: relative;
+        font-size: 25px;
+        text-align: center;
+        top: -5px;
+        line-height: 1.3333733333;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    
+    }
+
+    .block15promax{
+        position: absolute;
+        left: 100px;
+        top: 280px;
+    }
+    .img-15promax{
+        width: 350px;
+        height: 330px;
+        position: relative;
+        left: 10px;
+    }
+    .p-15promax{
+        color: #ff0800;
+        font-size: 15px;
+        position: relative;
+        text-align: center;
+        top: -30px;
+        line-height: 1.3333733333;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    }
+    .p2-15promax{
+        position: relative;
+        font-size: 20px;
+        top: -10px;
+        text-align: center;
+        line-height: 1.3333733333;
+        color: #282727;
+    }
+    .h3-15promax{
+        position: relative;
+        font-size: 25px;
+        text-align: center;
+        top: -10px;
+        line-height: 1.3333733333;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    
+    }
+    .block15pro{
+        position: absolute;
+        left: 500px;
+        top: 200px;
+    }
+    .img-15pro{
+        width: 390px;
+        height: 390px;
+        position: relative;
+        left: -25px;
+    }
+    .p-15pro{
+        color: #ff0800;
+        font-size: 15px;
+        position: relative;
+        text-align: center;
+        top: -55px;
+        line-height: 1.3333733333;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    left: -20px;
+    }
+    .p2-15pro{
+        position: relative;
+        font-size: 20px;
+        top: -40px;
+        text-align: center;
+        line-height: 1.3333733333;
+        color: #282727;
+        left: -20px;
+    }
+    .h3-15pro{
+        position: relative;
+        font-size: 25px;
+        text-align: center;
+        top: -40px;
+        line-height: 1.3333733333;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    left: -20px;
+    
+    }
+}
+.swiper-wrapper{
+    top: 0px;
+    width: 400px;
+}
+.swiper{
+    top: 0px;
+    width: 100%;
+    height: 800px;
+}
